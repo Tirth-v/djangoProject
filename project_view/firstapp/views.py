@@ -24,3 +24,10 @@ of context data as parameters, and returns an HttpResponse object with the rende
 """
 def func1(request):
    return render(request,"index.html")
+
+def function(request):
+   for i in range(0,11):
+      if i/2 == 0:
+         print(i)
+      else:
+         print("odd number")
